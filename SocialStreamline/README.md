@@ -30,43 +30,11 @@ It aims to be a "social knowledge" platform rather than typical social media, fo
 - **Database**: PostgreSQL with Drizzle ORM
 - **Editor**: TipTap-based rich text editor
 
-## Getting Started
+
 
 ### Prerequisites
 
 - Node.js (v18+)
 - PostgreSQL database
 
-### Installation
 
-1. Clone the repository
-   ```
-   git clone https://github.com/yourusername/threadspire.git
-   cd threadspire
-   ```
-
-2. Install dependencies
-   ```
-   npm install
-   ```
-
-3. Set up environment variables
-   Create a `.env` file in the root directory with the following variables:
-   ```
-   DATABASE_URL=postgresql://username:password@localhost:5432/threadspire
-   SESSION_SECRET=your_secret_here
-   ```
-
-4. Set up the database
-   ```
-   npm run db:push
-   ```
-
-5. Start the development server
-   ```
-   npm run dev
-   ```
-
-## License
-
-MIT
